@@ -1,0 +1,450 @@
+﻿/*Style informtaion for rectangles that I used to hold headers throughout website*/
+#headerText1 {
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #6c8c73;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: table;
+    font-size: 12px;
+    margin: 1px 2px;
+}
+
+#headerTextL {
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #0b0c0b;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: table;
+    font-size: 12px;
+    margin: 1px 2px;
+}
+
+#headerText1a {
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #6c8c73;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: table;
+    font-size: 12px;
+    margin: 1px 2px;
+}
+
+#headerText1aa {
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #6c8c73;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 20px;
+    margin: 1px 2px;
+}
+
+#headerText1bb{
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #6c8c73;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 20px;
+    margin: 1px 2px;
+}
+
+#headerText1bbb{
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #c6b286;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 20px;
+    margin: 1px 2px;
+}
+
+
+#headerText1bbbb{
+    width: 100%;
+    height: 50px;
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #222b38;
+    color: #222b38;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 20px;
+    margin: 1px 2px;
+}
+
+
+
+#headerTEXTSTUFF2 {
+    width: 100%;
+    height: 50px;
+    background-color: #6c8c73;
+    border-style: solid;
+    border-color: #222b38;
+    color: #e0ded1;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 20px;
+    margin: 1px 2px;
+}
+
+#headerTEXTSTUFFa {
+    width: 100%;
+    height: 50px;
+    background-color: #222b38;
+    border-style: solid;
+    border-color: #e0ded1;
+    color: #6c8c73;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    font-size: 32px;
+    margin: 1px 2px;
+}
+
+#headerTEXTSTUFFScroll {
+    width: 500px;
+    height: 100%;
+    background-color: #6c8c73;
+    border-style: solid;
+    border-color: #222b38;
+    color: #e0ded1;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: table;
+    font-size: 32px;
+    margin: 1px 2px;
+}
+
+#projectListWrapper
+ {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    background-color: #c6b286;
+
+}
+
+#myCarousel {
+    width: 100%;
+    height: 525px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #e0ded1;
+    float: left;
+}
+
+.carousel-inner {
+    height: 100%;
+    background-color: #e0ded1;
+}
+
+.item
+{
+ background-size: cover;
+ background-position: 100% 100%;
+ width: 100%;
+ height: 100%;
+}
+
+.item img
+{
+ visibility: visible;
+ overflow: hidden;
+}
+
+#textScroll {
+    background-color: #e0ded1;
+    border-style: solid;
+    border-color: #c5c0b4;
+    width: 100%;
+    height: 525px;
+    overflow: auto;
+    margin: 1px 2px;
+    
+}
+
+#textScroll2 {
+    background-color: #ab7a48;
+    border-style: solid;
+    border-color: #e0ded1;
+    width: 100%;
+    height: 525px;
+    overflow: auto;
+    margin: 1px 2px;
+    color: #222b38;
+}
+
+#textScroll3 {
+    background-color: #c5c0b4;
+    border-style: solid;
+    border-color: #222b38;
+    width: 100%;
+    height: 525px;
+    overflow: auto;
+    margin: 1px 2px;
+    color: #222b38;
+}
+
+
+
+#navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #222b38;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbarItem {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #e0ded1;
+    text-align: center;
+    padding: 10px 120px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul2 {
+    list-style-type: none;
+    text-align: left;
+}
+li a:hover {
+    background-color: #213652;
+}
+
+.active
+{
+ background-color: #6c8c73;
+}
+
+
+
+
+    #resButton:hover {
+        background-color: #c5c0b4;
+    }
+
+
+#wrapperLinks {
+    display: table;
+    margin: 0 auto;
+}
+
+#addcustomerButton {
+    width: 200px;
+    height: 100px;
+    background-color: #213652;
+    float: left;
+    border-style: solid;
+    border-color: #e0ded1;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    position: fixed;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    margin: 1px 2px;
+    cursor: pointer;
+}
+    #linkButtonLinked:hover {
+        background-color: #c5c0b4;
+    }
+
+
+}
+
+
+
+
+
+#archive {
+        background-color: #c6b286;
+        border: #222b38;
+        color: #e0ded1;
+        width: 400px;
+        height: 525px;
+        overflow: auto;
+        margin: auto;
+    }
+
+#navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #222b38;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.projScroll {
+    background-color: #c6b286;
+    width: 400px;
+    height: 525px;
+    overflow: auto;
+}
+
+#projectListWrapper
+ {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    background-color: #c6b286;
+
+}
+
+#projectListRight {
+    width: 66.666%;
+    height: 90%;
+    float: right;
+    padding: 5px;
+}
+
+#projectListMiddle {
+    width: 100%;
+    height: 90%;
+    float: left;
+    padding: 5px;
+    
+}
+
+#projectListLeft {
+    width: 33.333%;
+    height: 90%;
+    float: left;
+    padding: 5px;
+}
+
+#projectListWrapperCus
+ {
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+    background-color: #c6b286;
+
+}
+
+#projectListRightCus {
+    width: 50%;
+    height: 95%;
+    float: right;
+    padding: 5px;
+    background-color: #6c8c73;
+}
+
+
+#projectListLeftCus {
+    width: 50%;
+    height: 95%;
+    float: left;
+    padding: 5px;
+}
+
+.project h1 {
+    text-align: center;
+    background-color: #e0ded1;
+}
+
+.project h2 {
+    float: left;
+    width: 80%;
+    text-align: center;
+    border-style: solid;
+    border-color: #385925;
+    background-color: #e0ded1;
+    overflow: hidden;
+}
+
+
+/*Sets Outer Content Div Attributes:*/
+div.outer-content {
+    background-color: #ab7a48;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #e0ded1;
+}
+
+/*Sets Inner Content Div Attributes:*/
+div.inner-content {
+    background-color: #ab7a48;
+    color: #e0ded1;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+/*Creates boarders for cells that makeup overall table.*/
+table#table {
+    border: 1px solid black;
+}
+
+    table#table td {
+        border: 1px solid black;
+    }
+
+    table#table th {
+        border: 1px solid black;
+    }
+
+
+
+/*Colors in cells of table*/
+table#table tbody tr:nth-of-type(odd) {
+    background-color: #e0ded1;
+}
+
+/*Colors in cells of table*/
+table#table tbody tr:nth-of-type(even) {
+    background-color: #e0ded1;
+}

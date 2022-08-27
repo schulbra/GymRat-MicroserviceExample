@@ -1,0 +1,1222 @@
+/* Navbar for all of projects pages ------*/
+#myimage {
+  width: 4000px;
+  height: 1000px;
+}
+#maboutyimage {
+  width: 3000px;
+  height: 1000px;
+}
+#navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #213652;
+  position: fixed;
+ /* position: absolute;*/
+  bottom: 0;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.navbarItem {
+  float: left;
+  left: 1;
+}
+
+li a {
+  display: block;
+  color: #e0ded1;
+  text-align: center;
+  padding: 10px 120px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul2 {
+  list-style-type: none;
+  text-align: left;
+}
+
+li a:hover {
+  background-color: #b37270
+}
+
+.active {
+  background-color: #b4b46d;
+}
+
+/* Customer Page ------------------------------------------
+    -and header stuff?                   -                
+----------------------------------------*/
+
+#projectListWrapper {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  background-color: #c6b286;
+}
+
+#projectListRight {
+  width: 66.666%;
+  height: 90%;
+  float: right;
+  padding: 5px;
+}
+
+#projectListMiddle {
+  width: 100%;
+  height: 90%;
+  float: left;
+  padding: 5px; 
+}
+
+#projectListLeft {
+  width: 33.333%;
+  height: 90%;
+  float: left;
+  padding: 5px;
+}
+
+
+
+#projectListSignInWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  margin:0 auto;
+
+}
+
+#projectListSignInMiddle {
+  width: 100%;
+  height: 95%;
+  margin:0 auto;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #221212;
+
+}
+#projectListSignInR {
+  width: 33.3%;
+  height: 33.3%;
+  float: right;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #c6b286;
+  position: relative;
+}
+#projectListSignInl {
+  width: 33.3%;
+  height: 33.3%;
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #c6b286;
+  position: relative;
+}
+#projectListRight {
+  width: 66.666%;
+  height: 90%;
+  float: right;
+  padding: 5px;
+}
+
+#projectListMiddle {
+  width: 100%;
+  height: 90%;
+  float: left;
+  padding: 5px; 
+}
+
+#projectListLeft {
+  width: 33.333%;
+  height: 90%;
+  float: left;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+#projectListRightCus {
+  width: 100%;
+  height: 95%;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #6c8c73;
+  position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -100px;
+                margin-left: -100px;
+}
+
+
+
+.projectCus h1 {
+  text-align: center;
+  border-style: solid;
+  border-color: #222b38;
+  background-color: #c6b286;
+}
+
+.projectCus h2 {
+  float: left;
+  width: 80%;
+  text-align: center;
+  border-style: solid;
+  border-color: #222b38;
+  background-color: #e0ded1;
+  overflow: hidden;
+}
+
+
+/* wrapper for customerrecords */
+#projectListWrapperCustomerRecords {
+  width: 1769px;
+  height: 1900px;
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+
+  background-color: #c6b286;
+}
+
+#projectListLeftCustomerRecords {
+
+  background-color: #c6b286;
+
+  width: 1769px;;
+  height: 90%;
+  float: left;
+  padding: 5px;
+}
+
+#projectListRightCustomerRecords {
+  width: 50%;
+  height: 95%;
+  float: right;
+  padding: 5px;
+  background-color: #222b38;
+}
+
+.projectCustomerRecords h1 {
+  text-align: center;
+  background-color: #6c8c73;
+}
+
+.projectCustomerRecords h2 {
+  float: left;
+  width: 80%;
+  text-align: center;
+  border-style: solid;
+  border-color: #385925;
+  background-color: #c6b286;
+  overflow: hidden;
+}
+
+
+#headerText1bbb{
+  width: 100%;
+  height: 50px;
+  background-color: #cac2b0;
+  border-style: solid;
+  border-color: #c6b286;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+
+#headerText1bbbb{
+  width: 100%;
+  height: 50px;
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #c6b286;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+
+
+/* wrapper for medications */
+#projectListWrapperMedications {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #c6b286;
+}
+
+/*.projectCus h1 {
+  text-align: center;
+  border-style: solid;
+  border-color: #222b38; purple
+  background-color: #c6b286; yellow tan
+}*/
+
+#projectListLeftMedications {
+  width: 100%;
+  height: 70%;
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #cac2b0;
+}
+
+.projectMedications h1 {
+  text-align: center;
+  background-color: #222b38;
+}
+
+.projectMedications h2 {
+  float: left;
+  width: 80%;
+  text-align: center;
+  border-style: solid;
+  border-color: #6c8c73;
+  background-color: #cac2b0;
+  overflow: hidden;
+}
+
+/* forms: */
+#addCustomerForm {
+
+  width: 1337px;
+  text-align: center;
+  border-style: solid;
+  background-color: #e0ded1;
+  padding: 10px;
+  font-size: 18px;
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #6c8c73
+}
+
+#addCustomerbutton1 {
+  background-color: #222b38;
+  color:#e0ded1;
+  border: 2px solid;
+  text-align: center;
+  border-style: solid;
+  border-color: #6c8c73
+}
+
+.Customerbutton1button1:hover {
+  background-color: #4CAF50;
+  color: #222b38;
+}
+
+#addCutomerUpdateBox{
+  background-color: #6c8c73;
+  color:#e0ded1;
+  border: 2px solid;
+  text-align: center;
+  border-style: solid;
+  border-color: #e0ded1;
+}
+
+#headerText1 {
+  width: 100%;
+  height: 50px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #6c8c73;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: table;
+  font-size: 12px;
+  margin: 1px 2px;
+}
+
+#headerTextL {
+  width: 100%;
+  height: 50px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #0b0c0b;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: table;
+  font-size: 12px;
+  margin: 1px 2px;
+}
+
+#headerText1a {
+  width: 100%;
+  height: 50px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #6c8c73;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: table;
+  font-size: 12px;
+  margin: 1px 2px;
+}
+
+#headerText1aa {
+  width: 50%;
+  height: 50px;
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color:#222b38; 
+  color:   #e0ded1;
+  border: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 25px;
+  margin: 1px 2px;
+}
+
+#headerText1Inventory{
+  width: 50%;
+  height: 50px;
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color:#222b38; 
+  color:   #e0ded1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 37px;
+  margin: 1px 2px;
+}
+
+#headerText1aaforms {
+  width: 100%;
+  height: 50px;
+  background-color: #222b38;
+  border-style: solid;
+  border-color: #6c8c73;
+  color: #e0ded1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+#headerText1aaformsremove {
+  width: 70%;
+  height: 10px;
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #222b38;
+  color: #e0ded1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+#headerText1bb{
+  width: 100%;
+  height: 50px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #6c8c73;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+#headerText1bbSearch{
+  width: 100%;
+  height: 12px;
+  border-style: solid;
+  border-color: #6c8c73;
+  background-color:#e0ded1;
+  color: #222b38;
+  padding: 5px 5px;
+  text-align: left;
+  text-decoration: none;
+  display: table;
+  font-size: 17px;
+  margin: 2px 2px;
+}
+
+#headerText1bbb{
+  width: 100%;
+  height: 50px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #c6b286;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+
+#headerText1bbbb{
+  width: 100%;
+  height: 50px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #222b38;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+#headerText1bbbb2{
+  width: 100%;
+  height: 20px;
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #222b38;
+  color: #222b38;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+
+/*Sets Outer Content Div Attributes:*/
+div.outer-content {
+  background-color: #ab7a48;
+  margin-left: auto;
+  width: 100%;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: #e0ded1;
+}
+
+/*Sets Inner Content Div Attributes:*/
+div.inner-content {
+  background-color: #ab7a48;
+  color: #e0ded1;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+/*Creates boarders for cells that makeup overall table.*/
+table#tableGR {
+  border: 1px solid black;
+}
+
+  table#tableGR td {
+      border: 1px solid black;
+  }
+
+  table#tableGR th {
+      border: 1px solid black;
+  }
+
+
+
+/* PDF container source  https://pdfobject.com/ */
+.pdfobject-container {
+  height: 50rem;
+  width: 80rem;
+  border: 1rem solid rgba(0,0,0,.1);
+}
+
+/*Colors in cells of table*/
+table#tableGR tbody tr:nth-of-type(odd) {
+  background-color: #e0ded1;
+}
+
+/*Colors in cells of table*/
+table#tableGR  tbody tr:nth-of-type(even) {
+  background-color: #e0ded1;
+}
+
+
+#headergrLogo {
+  width: 100%;
+  height:70%px;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #9d5b66;
+  color: #e0ded1;
+  padding: 0px ;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50px;
+  margin: 1px 2px;
+}
+#headergrLogoa {
+  width: 100%;
+  height:60%px;
+  background-color: #222b38;
+  border-style: solid;
+  border-color: #000000;
+  color: #e0ded1;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50px;
+  margin: 1px 2px;
+}
+
+#headergrLogGRLead {
+  width: 100%;
+  height:35px;
+  background-color: #222b38;
+  border-style: solid;
+  border-color: #000000;
+  color: #e0ded1;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50px;
+  margin: 1px 2px;
+}
+
+#headergrLogGRLeadStats {
+  width: 100%;
+  height:35px;
+  background-color: #9d5b66;
+  border-style: solid;
+  border-color: #000000;
+  color: #ece7cf;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50px;
+  margin: 1px 2px;
+}
+
+#headergrUser {
+
+  width: 50%;
+  height: 5%;
+  background-color: #9d5b66;
+  border-style: solid;
+  border-color: #222b38;
+  color: #e0ded1;
+  padding: 50px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50;
+  margin: 1px 2px;
+}
+
+
+
+
+
+#headergrPass {
+  width: 100%;
+  height: 15%;
+  background-color: #9d5b66;
+  border-style: solid;
+  border-color: #222b38;
+  color: #e0ded1;
+  padding: 50px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50px;
+  margin: 1px 2px;
+}
+
+#headerTEXTSTUFFa {
+  width: 100%;
+  height: 50px;
+  background-color: #222b38;
+  border-style: solid;
+  border-color: #e0ded1;
+  color: #6c8c73;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 32px;
+  margin: 1px 2px;
+}
+
+#headerTEXTSTUFFScroll {
+  width: 500px;
+  height: 100%;
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #222b38;
+  color: #e0ded1;
+  padding: 10px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: table;
+  font-size: 32px;
+  margin: 1px 2px;
+}
+
+#addButton {
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #e0ded1;
+  color: #e0ded1;
+  width: 20%;
+  height: 35px;
+  padding: 5px 5px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+ 
+}
+
+#addMedForm {
+  background-color: #e0ded1;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #6c8c73
+}
+
+#addMedbutton1 {
+  background-color: #222b38;
+  color:#e0ded1;
+  border: 2px solid;
+  text-align: center;
+  border-style: solid;
+  border-color: #6c8c73
+}
+
+.Customerbutton1button1:hover {
+  background-color: #4CAF50;
+  color: #222b38;
+}
+
+#addCutomerUpdateBox{
+  background-color: #6c8c73;
+  color:#e0ded1;
+  border: 2px solid;
+  text-align: center;
+  border-style: solid;
+  border-color: #e0ded1;
+}
+
+/* ------**************************************************************** 
+edittttttttttttttttttttttttttttttttttttttttttttttttttt
+/* Delete forms and buttons:
+/* ------**************************************************************** */
+#removeForm {
+background-color: #e0ded1;
+padding: 10px;
+font-size: 19px;
+width: 100%;
+display: inline-block;
+margin-bottom: 10px;
+border-style: solid;
+border-color: #6c8c73
+}
+
+
+#deleteButton {
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #e0ded1;
+  color: #e0ded1;
+  width: 20%;
+  height: 35px;
+  padding: 5px 5px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+
+#checkLabel {
+  width: 20%;
+  height: 35px;
+  background-color: #222b38;
+  border-style: solid;
+  border-color: #6c8c73;
+  color: #e0ded1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 1px 2px;
+}
+
+#deleteButton:hover {
+  background-color: #222b38;
+}
+
+#undoCheckedButton {
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #e0ded1;
+  color: #e0ded1;
+  width: 20%;
+  height: 35px;
+  padding: 5px 5px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+ 
+}
+
+#undoCheckedButton:hover {
+  background-color: #222b38;
+}
+
+
+#searchForm {
+background-color: #e0ded1;
+padding: 10px;
+font-size: 19px;
+width: 100%;
+display: inline-block;
+margin-bottom: 10px;
+border-style: solid;
+border-color: #6c8c73
+}
+
+#searchButton {
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #e0ded1;
+  color: #e0ded1;
+  width: 20%;
+  height: 35px;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+#searchFormSet {
+  background-color: #7c6c8e;
+  padding: 10px;
+  font-size: 19px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color:#7c6c8e
+  }
+
+#signOutButtonGR{
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #222b38;
+  color: #e0ded1;
+  width: 100%;
+  height: 35px;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+#searchButtonGRLEAD {
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #5d535c;
+  color: #e0ded1;
+  width: 100%;
+  height: 80%;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+#searchButtonGRLEAD2 {
+  background-color: #7c6c8e;
+  border-style: solid;
+  border-color: #5d535c;
+  color: #e0ded1;
+  width: 100%;
+  height: 80%;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+#searchButtonStats {
+  background-color: #7c6c8e;
+  border-style: solid;
+  border-color: #b4b46d;
+  color: #e0ded1;
+  width: 100%;
+  height: 80%;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+#searchButtonGRLEAD:hover {
+  background-color: #222b38;
+}
+#searchButton:hover {
+  background-color: #222b38;
+}
+
+
+
+#searchmedForm {
+  background-color: #e0ded1;
+  padding: 10px;
+  font-size: 18px;
+  width: 1337px;;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #222b38
+  }
+  
+  #searchmedButton {
+    background-color: #6c8c73;
+    border-style: solid;
+    border-color: #e0ded1;
+    color: #e0ded1;
+    width: 20%;
+    height: 35px;
+    padding: 10px 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  #searchmedButton:hover {
+    background-color: #222b38;
+  }
+
+
+/* ------**************************************************************** *//*index page cs elements: */
+#projectListWrapper {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  background-color: #c6b286;
+}
+
+#myCarousel {
+  width: 100%;
+  height: 525px;
+  overflow: hidden;
+  margin: auto;
+  background-color: #e0ded1;
+  float: left;
+}
+
+.carousel-inner {
+  height: 100%;
+  background-color: #e0ded1;
+}
+
+.item
+{
+ background-size: cover;
+ background-position: 100% 100%;
+ width: 100%;
+ height: 100%;
+}
+
+.item img
+{
+ visibility: visible;
+ overflow: hidden;
+}
+
+#textScroll {
+  background-color: #e0ded1;
+  border-style: solid;
+  border-color: #c5c0b4;
+  width: 100%;
+  height: 525px;
+  overflow: hidden;
+  margin: 1px 2px;  
+}
+
+#textScroll2 {
+  background-color: #ab7a48;
+  border-style: solid;
+  border-color: #e0ded1;
+  width: 100%;
+  height: 525px;
+  overflow: hidden;
+  margin: 1px 2px;
+  color: #222b38;
+}
+
+#textScroll3 {
+  background-color: #222b38;
+  border-style: solid;
+  border-color: #b4b46d;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin: 1px 2px;
+  color: #e0ded1;
+}
+
+
+
+/* table css */
+/*Creates boarders for cells that makeup overall table.*/
+table#table {
+  border: 1px solid #222b38;
+  background-color: #c6b286;
+  text-align: center;
+  width:100%;
+  overflow: hidden;
+  margin: 1px 2px;
+  padding: 10px 10px;
+}
+
+  table#table td {
+      border: 1px solid #222b38;
+      text-align: center;
+  }
+
+  table#table th {
+    border: 1px solid #222b38;
+    text-align: center;
+  }
+
+
+
+/*Colors in cells of table*/
+table#table tbody tr:nth-of-type(odd) {
+  background-color: #c6b286;
+  text-align: center;
+}
+
+/*Colors in cells of table*/
+table#table tbody tr:nth-of-type(even) {
+  background-color: #c6b286;
+  text-align: center;
+}
+
+#containerPage {
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+
+#searchButton {
+  background-color: #6c8c73;
+  border-style: solid;
+  border-color: #e0ded1;
+  color: #e0ded1;
+  width: 100px;
+  height: 35px;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+/* table css */
+/*Creates boarders for cells that makeup overall table.*/
+table#tableForm {
+  border: 2px solid #e0ded1;
+  background-color: #5e8667;
+  text-align: center;
+  width:100%;
+  overflow: hidden;
+  margin: 1px 2px;
+  color: #e0ded1;
+}
+
+  table#tableForm td {
+      border: 1px solid #488155;
+      text-align: center;
+      color: #e0ded1;
+  }
+
+  table#tableForm th {
+    border: 1px solid #488155;
+    text-align: center;
+    color: #e0ded1;
+  }
+
+
+
+/*Colors in cells of table*/
+table#tableForm tbody tr:nth-of-type(odd) {
+  background-color: #5e8667;
+  text-align: center;
+}
+
+/*Colors in cells of table*/
+table#tableForm tbody tr:nth-of-type(even) {
+  background-color: #5e8667;
+  text-align: center;
+}
+
+
+
+
+table#tableForm2 {
+  border: 2px solid #e0ded1;
+  background-color: #222b38;
+  text-align: center;
+  width:100%;
+  height:10%;
+  overflow: hidden;
+  margin: 1px 2px;
+  color: #e0ded1;
+}
+
+  table#tableForm2 td {
+      border: 1px solid #3b4655;
+      text-align: center;
+      color: #e0ded1;
+  }
+
+  table#tableForm2 th {
+    border: 1px solid #3b4655;
+    text-align: center;
+    color: #e0ded1;
+  }
+
+
+
+/*Colors in cells of table*/
+table#tableForm2 tbody tr:nth-of-type(odd) {
+  background-color: #222b38;
+  text-align: center;
+}
+
+/*Colors in cells of table*/
+table#tableForm2 tbody tr:nth-of-type(even) {
+  background-color: #222b38;
+  text-align: center;
+}
+
+
+table#tableForm3 
+  {
+    border: 2px solid #e0ded1;
+    background-color: #9d5b66;
+    text-align: center;
+    width:100%;
+    height:10%;
+    overflow: hidden;
+    margin: 1px 2px;
+    color: #e0ded1;
+  }
+
+  table#tableForm3 td {
+    border: 1px solid #3b4655;
+    text-align: center;
+    color: #e0ded1;
+}
+
+table#tableForm3 th {
+  border: 1px solid #3b4655;
+  text-align: center;
+  color: #e0ded1;
+}
+
+
+
+/*Colors in cells of table*/
+table#tableForm3 tbody tr:nth-of-type(odd) {
+background-color: #222b38;
+text-align: center;
+}
+
+/*Colors in cells of table*/
+table#tableForm3 tbody tr:nth-of-type(even) {
+background-color: #222b38;
+text-align: center;
+}
+
+table#tableForm4 
+  {
+    border: 2px solid #b37270;
+    background-color: #7c6c8e;
+    text-align: center;
+    width:100%;
+    height:10%;
+    overflow: hidden;
+    margin: 1px 2px;
+    color: #ece0c9;
+  }
+
+  table#tableForm4 td {
+    border: 1px solid #3b4655;
+    text-align: center;
+    color: #e0ded1;
+}
+
+table#tableForm4 th {
+  border: 1px solid #3b4655;
+  text-align: center;
+  color: #e0ded1;
+}
+
+
+
+/*Colors in cells of table*/
+table#tableForm4 tbody tr:nth-of-type(odd) {
+background-color: #222b38;
+text-align: center;
+}
+
+/*Colors in cells of table*/
+table#tableForm4 tbody tr:nth-of-type(even) {
+background-color: #222b38;
+text-align: center;
+}

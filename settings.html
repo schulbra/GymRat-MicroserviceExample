@@ -1,0 +1,105 @@
+<!-- index.hbs -->
+<!-- .........................................................................................................
+    - Brandon Schultz
+    - 5-30-21   
+    - index.hbs
+      **Notes from: https://github.com/osu-cs340-ecampus/nodejs-starter-app
+
+    - {{ something }}
+        - that something =  handlebars expression
+
+    -  {{#each something}}
+        - #x = handlebars helpers
+        -  allow you to iterate through objects and arrays and perform other specialized tasks on the data
+         you send to the templating engine
+
+    - from tutorial:
+
+........................................................................................................... -->
+<html>
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Settings Page</title>
+    <div id="navbar">
+      <ul>
+          <li class="navbarItem"><a href="signin.html" >Splash Screen</a><li>
+          <li class="navbarItem"><a href="lead.html" ></a>Leaderboard </a></li>
+          <li class="navbarItem"><a href="userRecords.html">Personal Stats</a></li>
+          <li class="navbarItem"><a href="settings.html" class="active"> Settings</a></li>
+          <li class="navbarItem"><a href="about.html">About</a></li>
+      </ul>
+    </div>
+</head>
+
+ <body>
+  <div id="projectListSignInWrapper">
+    <div id="projectListSignInMiddle">
+
+
+     <div id="searchForm">
+      <form id="search" action="" method="get">
+       <fieldset>
+        <form id="showTable">
+         <table id="tableForm3">
+            <thead>
+                    <tr>
+                     <td> <input id="searchButtonGRLEAD2" type="submit" name="search" value="SignOutButton"></td>
+                        <td> <div id="headergrLogGRLeadStats"><p><b> Settings Banner </b></p></div></td>
+                    </tr>
+             </thead>
+          </table>
+
+        <div id="headergrLogo"> <p><b>   
+          <div id="headergrLogo"> <p><b> Implementation of team members microservice: </b></p>
+          </div>
+
+          <div id="headerTEXTSTUFF2"></div><div id="headerTEXTSTUFF2"> <p><b> Exercise Your Fingers By Changing the link below:  </b></p></div>
+          <div id="headerTEXTSTUFF2"></div><div id="headerTEXTSTUFF2"> <p><b>           Then Click It!  </b></p></div>
+
+          
+                        <form>
+                         <fieldset>
+
+                             <a id="reflectedlink" href="https://cs361-wiki-app.herokuapp.com/?">https://cs361-wiki-app.herokuapp.com/?</a>
+                             <input id="searchterm" />
+
+                             <script type="text/javascript">var link = document.getElementById('reflectedlink');
+                                 var input = document.getElementById('searchterm');
+                                 input.onchange = input.onkeyup = function () {
+                                     link.search = 'search=' + encodeURIComponent(input.value);
+                                     link.firstChild.data = link.href;
+                                 };</script>
+                             <input type="submit" id="querySubmit" value="clear">
+                         </fieldset>
+                     </form>
+
+
+
+
+         <div id="searchFormSet">
+            <form id="search" action="" method="get">
+             <fieldset>
+              <form id="showTable">
+               <table id="tableForm4">
+                     <thead>
+                             <tr>
+                                <td> <div id="headergrLogGRLeadStats"><p><b> Home Gym Banner </b></p></div></td>
+                              <td> <input id="searchButtonStats" type="submit" name="search" value="AddNewHomeGymButton"></td>
+                                 
+                               
+                             </tr>
+                      </thead>
+              </table>
+             </form>
+         </fieldset>
+       </form>
+      </div>
+    </div>
+  </div>
+ 
+ </body>
+</html> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>

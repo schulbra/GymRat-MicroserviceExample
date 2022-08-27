@@ -1,0 +1,66 @@
+<!-- index.hbs -->
+<!-- .........................................................................................................
+    - Brandon Schultz
+    - 5-30-21   
+    - index.hbs
+      **Notes from: https://github.com/osu-cs340-ecampus/nodejs-starter-app
+
+    - {{ something }}
+        - that something =  handlebars expression
+
+    -  {{#each something}}
+        - #x = handlebars helpers
+        -  allow you to iterate through objects and arrays and perform other specialized tasks on the data
+         you send to the templating engine
+
+    - from tutorial:
+
+........................................................................................................... -->
+<html>
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Login Page</title>
+    <div id="navbar">
+      <ul>
+          <li class="navbarItem"><a href="signin.html" class="active">Login</a><li>
+          <li class="navbarItem"><a href="lead.html">Leaderboard</a></li>
+          <li class="navbarItem"><a href="userRecords.html">Personal Stats</a></li>
+          <li class="navbarItem"><a href="settings.html">Settings</a></li>
+          <li class="navbarItem"><a href="about.html"> About</a></li>
+      </ul>
+    </div>
+</head>
+
+ <body>
+  <div id="projectListSignInWrapper">
+    <div id="projectListSignInMiddle">
+     <div id="headergrLogoa">
+        <p><b> Welcome To GymRat //Banner Coming soon </b></p>
+     </div>
+
+     <div id="headergrLogo">
+        <img src="gr.png" class="myimages" alt="grlogo"> 
+     </div>
+     
+ 
+     <form id="showTable">
+        <table id="tableForm2">
+          <thead>
+           <tr>
+             <th>User Login Button:</th>
+             <th>Password Login Button:</th>
+           </tr>
+        </thead>
+     </table> 
+     <br>
+
+
+    </div>
+  </div>
+ 
+ </body>
+</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>

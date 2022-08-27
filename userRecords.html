@@ -1,0 +1,212 @@
+<!-- index.hbs -->
+<!-- .........................................................................................................
+    - Brandon Schultz
+    - 5-30-21   
+    - index.hbs
+      **Notes from: https://github.com/osu-cs340-ecampus/nodejs-starter-app
+
+    - {{ something }}
+        - that something =  handlebars expression
+
+    -  {{#each something}}
+        - #x = handlebars helpers
+        -  allow you to iterate through objects and arrays and perform other specialized tasks on the data
+         you send to the templating engine
+
+    - from tutorial:
+
+........................................................................................................... -->
+<html>
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Leaderboard Page</title>
+    <div id="navbar">
+      <ul>
+          <li class="navbarItem"><a href="signin.html" >Splash Screen</a><li>
+          <li class="navbarItem"><a href="lead.html" ></a>Leaderboard </a></li>
+          <li class="navbarItem"><a href="userRecords.html"class="active">Personal Stats</a></li>
+          <li class="navbarItem"><a href="settings.html">Settings</a></li>
+          <li class="navbarItem"><a href="about.html"> About</a></li>
+      </ul>
+    </div>
+</head>
+
+ <body>
+  <div id="projectListSignInWrapper">
+    <div id="projectListSignInMiddle">
+
+
+     <div id="searchForm">
+      <form id="search" action="" method="get">
+       <fieldset>
+        <form id="showTable">
+
+         <table id="tableForm3">
+            <thead>
+                    <tr>
+                     <td> <input id="searchButtonGRLEAD2" type="submit" name="search" value="SignOutButton"></td>
+                        <td> <div id="headergrLogGRLead"><p><b> Your Personal Stats Banner </b></p></div></td>
+                    </tr>
+             </thead>
+          </table>
+
+          <table id="tableForm2">
+            <thead>
+                    <tr>
+                     <td> <div id="headergrLogGRLead"><p><b>Total Score: </b></p></div></td></td>
+                     <td> <input id="searchButtonGRLEAD2" type="submit" name="search" value="9000"></td>
+                    </tr>
+             </thead>
+          </table>
+
+          <table id="tableForm2">
+            <thead>
+                    <tr>
+                     <td> <div id="headergrLogGRLead"><p><b> Local Rank: </b></p></div></td></td>
+                     <td> <input id="searchButtonStats" type="submit" name="search" value="32"></td>
+                     <td> <input id="searchButtonStats" type="submit" name="search" value="/"></td>
+                     <td> <input id="searchButtonStats" type="submit" name="search" value="545"></td>
+                    </tr>
+             </thead>
+          </table>
+
+          <form id="showTable">
+            <table id="tableForm3">
+              <thead>
+               <tr>
+                <th>ID #  </th>
+                 <th>Other Categories:</th>
+                 <th>Category Name:</th>
+                 <th>Category Value:</th>
+               </tr>
+  
+               <tr>
+                <td><em>0</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+  
+               <tr>
+                <td><em>1</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+  
+               <tr>
+                <td><em>2</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+              </thead>
+             </table> 
+             </tbody>
+          </form>
+
+          <form id="showTable">
+            <table id="tableForm2">
+              <thead>
+               <tr>
+                <th>ID #  </th>
+                 <th>Other Categories:</th>
+                 <th>Category Name:</th>
+                 <th>Category Value:</th>
+               </tr>
+  
+               <tr>
+                <td><em>0</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+  
+               <tr>
+                <td><em>1</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+  
+               <tr>
+                <td><em>2</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+               <tr>
+                <td><em>...</em></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+                <td><input type="text" name="disease" value=""></td>
+               </tr>
+              </thead>
+             </table> 
+             </tbody>
+       </fieldset>
+      </form>
+      </div>
+    </div>
+  </div>
+ 
+ </body>
+</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
